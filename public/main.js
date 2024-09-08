@@ -11,8 +11,8 @@ const init = () => {
     <i class="fas fa-user fa-4x"></i> <i class="fab fa-github-square fa-5x"></i>
   `;
   console.warn('YOU ARE UP AND RUNNING!');
-  startApp();
   ViewDirectorBasedOnUserAuthStatus();
+  startApp();
 };
 
 init();
