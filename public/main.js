@@ -2,6 +2,7 @@
 import ViewDirectorBasedOnUserAuthStatus from '../utils/viewDirector';
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
+import startApp from '../utils/startApp';
 
 const init = () => {
   document.querySelector('#app').innerHTML = `
@@ -10,8 +11,7 @@ const init = () => {
     <i class="fas fa-user fa-4x"></i> <i class="fab fa-github-square fa-5x"></i>
   `;
   console.warn('YOU ARE UP AND RUNNING!');
-
-  // USE WITH FIREBASE AUTH
+  startApp();
   ViewDirectorBasedOnUserAuthStatus();
 };
 
