@@ -1,0 +1,72 @@
+{
+    "-MiBsBKGWFEU-yluJkL-": {
+      "firebaseKey": "AIzaSyCtn7Vfs9pFsdKx5ZeyUlFagb_wGo-wLBs",
+      "title": "Class",
+      "definition": "A blueprint for creating objects in Java.",
+      "language": "Java",
+      "uid": ""
+    },
+    "-MiBsknNSQ6aBG1-2lQS": {
+      "firebaseKey": "-MiBsknNSQ6aBG1-2lQS",
+      "title": "Function",
+      "definition": "A block of code designed to perform a task in JavaScript.",
+      "language": "JavaScript",
+      "uid": ""
+    },
+    "-MiBuCve4-r_H-RLUOh2": {
+      "firebaseKey": "-MiBuCve4-r_H-RLUOh2",
+      "title": "Tag",
+      "definition": "Defines elements in an HTML document.",
+      "language": "HTML",
+      "uid": ""
+    },
+    "-MiBuU13EaKmGOMjJF-X": {
+      "firebaseKey": "-MiBuU13EaKmGOMjJF-X",
+      "title": "Tuple",
+      "definition": "An immutable sequence in Python.",
+      "language": "Python",
+      "uid": ""
+    },
+    "-MiBuqoYjFwbXyA8oiiw": {
+      "firebaseKey": "-MiBuqoYjFwbXyA8oiiw",
+      "title": "Method",
+      "definition": "A function that belongs to a class in Java.",
+      "language": "Java",
+      "uid": ""
+    },
+    "-MiBvEFJTI3FmTzDu_3V": {
+      "firebaseKey": "-MiBvEFJTI3FmTzDu_3V",
+      "title": "Document Object Model (DOM)",
+      "definition": "A programming interface for web documents.",
+      "language": "JavaScript",
+      "uid": ""
+    },
+    "-MiBvW8ME_DvO2GzwQ8D": {
+      "firebaseKey": "-MiBvW8ME_DvO2GzwQ8D",
+      "title": "Element",
+      "definition": "An HTML element that defines structure in a webpage.",
+      "language": "HTML",
+      "uid": ""
+    },
+    "-MiBvf3bIyooE6x4nLLB": {
+      "firebaseKey": "-MiBvf3bIyooE6x4nLLB",
+      "title": "List",
+      "definition": "A mutable collection in Python.",
+      "language": "Python",
+      "uid": ""
+    },
+    "-MiBwAF5wOY00AYJm7cR": {
+      "firebaseKey": "-MiBwAF5wOY00AYJm7cR",
+      "title": "Script",
+      "definition": "A program written in JavaScript to control behavior.",
+      "language": "JavaScript",
+      "uid": ""
+    },
+    "-MiBvYDJSHyTzLh123kJ": {
+      "firebaseKey": "-MiBvYDJSHyTzLh123kJ",
+      "title": "Inheritance",
+      "definition": "Allows one class to inherit the properties of another in Java.",
+      "language": "Java",
+      "uid": ""
+    }
+  }

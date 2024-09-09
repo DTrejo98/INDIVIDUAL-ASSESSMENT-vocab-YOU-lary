@@ -1,5 +1,5 @@
 import clearDom from '../../utils/clearDom';
-import renderToDOM from '../../utils/renderToDom';
+import renderToDom from '../../utils/renderToDom';
 
 const addVocabCard = (obj = {}) => {
   clearDom();
@@ -25,7 +25,7 @@ const addVocabCard = (obj = {}) => {
       <button type="submit" class="btn btn-primary">Submit card</button>
     </form>`;
 
-  renderToDOM('#form-container', domString);
+  renderToDom('#form-container', domString);
 };
 
 export default addVocabCard;

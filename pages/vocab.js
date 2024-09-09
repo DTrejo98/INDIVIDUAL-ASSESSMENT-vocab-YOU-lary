@@ -1,9 +1,9 @@
-import renderToDOM from '../utils/renderToDom';
+import renderToDom from '../utils/renderToDom';
 import clearDom from '../utils/clearDom';
 
 const emptycards = () => {
   const domString = '<h1>No cards</h1>';
-  renderToDOM('#vocab-page', domString);
+  renderToDom('#vocab-page', domString);
 };
 
 const showCards = (array) => {
@@ -23,7 +23,7 @@ const showCards = (array) => {
         </div>
       </div>`;
   });
-  renderToDOM('#vocab-page', domString);
+  renderToDom('#vocab-page', domString);
 };
 
 export { showCards, emptycards };
