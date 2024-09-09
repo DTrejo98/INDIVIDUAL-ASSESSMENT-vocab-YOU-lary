@@ -1,4 +1,4 @@
-import renderToDOM from '../../utils/renderToDom';
+import renderToDom from '../../utils/renderToDom';
 
 const navBar = () => {
   const domString = `
@@ -30,7 +30,7 @@ const navBar = () => {
         </div>
       </nav>`;
 
-  renderToDOM('#navigation', domString);
+  renderToDom('#navigation', domString);
 };
 
 export default navBar;

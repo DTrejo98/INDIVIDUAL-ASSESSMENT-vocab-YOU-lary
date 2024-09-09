@@ -1,4 +1,4 @@
-import renderToDOM from '../../utils/renderToDom';
+import renderToDom from '../../utils/renderToDom';
 
 const domBuilder = () => {
   const domString = `
@@ -9,7 +9,7 @@ const domBuilder = () => {
     <div id="vocab-page"></div>
   </div>`;
 
-  renderToDOM('#app', domString);
+  renderToDom('#app', domString);
 };
 
 export default domBuilder;
