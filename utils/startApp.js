@@ -9,13 +9,12 @@ import { showCards } from '../pages/vocab';
 
 const startApp = (user) => {
   console.warn(user);
-  domBuilder(user); // BUILD THE DOM
-  domEvents(user); // ADD THE EVENT LISTENTERS TO THE DOM
-  formEvents(user); // ADD FORM EVENT LISTENTERS TO THE DOM
-  navBar(); // DYNAMICALLY ADD THE NAV
-  logoutButton(); // ADD THE LOGOUT BUTTON COMPONENT
-  navigationEvents(user); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
-
+  domBuilder(user);
+  domEvents(user);
+  formEvents(user);
+  navBar();
+  navigationEvents(user);
+  logoutButton();
   getCards(user.uid).then((cards) => showCards(cards));
 };
 
