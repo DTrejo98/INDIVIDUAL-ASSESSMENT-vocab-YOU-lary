@@ -25,6 +25,7 @@ const deleteCard = (firebaseKey) => new Promise((resolve, reject) => {
     .then((data) => resolve(data))
     .catch(reject);
 });
+
 const createCard = (payload, uid) => new Promise((resolve, reject) => {
   console.warn(uid);
   const payload2 = { ...payload, uid };
